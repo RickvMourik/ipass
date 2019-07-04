@@ -52,7 +52,7 @@ int main( void ){
    bool tapY = 0;
    bool tapZ = 0;
    bool suppresTap = 0;
-   bool taps[4] = {suppresTap, tapX, tapY,tapZ};
+   bool taps[4] = {tapZ, tapY, tapX, suppresTap};
 
    sensor.setTreshTap(10);             //threshold for tap interupts
    sensor.setTapDuration(0);           //set how long it takes for the a value to count as above the tap treshhold 0 disables tap threshold (625 μs/LSB)
@@ -66,7 +66,7 @@ int main( void ){
    bool inactX = 0;                    //1 to enable inactivity check for the axis, 0 to disable
    bool inactY = 0;
    bool inactZ = 0;
-   bool act_inact_tot[8] = {act_ac_dc, actX, actY, actZ, inact_ac_dc, inactX, inactY, inactZ};
+   bool act_inact_tot[8] = {inactZ, inactY, inactX, inact_ac_dc, actZ, actY, actX, act_ac_};
 
    sensor.setLatent(0);                //set time window to before double tap can be measured (1.25 ms/LSB) 0 disables double tap
    sensor.setWindow(0);                //set time window where double tap can be measured (1.25 ms/LSB) 0 disables double tap
@@ -89,7 +89,7 @@ int main( void ){
    bool freefall = 0;
    bool watermark = 0;
    bool overrun = 0;
-   bool interrupts[8] = {data_ready, single_tap, double_tap, activity, inactivity, freefall, watermark, overrun};
+   bool interrupts[8] = {overrun, watermark, freefall, inactivity, activity, double_tap, single_tap, data_ready};
 
    sensor.setInterrupts(interrupts);
    
