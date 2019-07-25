@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['getactinactctl',['getActInactCtl',['../classadxl345.html#a70f48c436bd65d56c1e684facfabccae',1,'adxl345']]],
+  ['getallsettings',['getAllSettings',['../classadxl345.html#a0d4f93d5ffdf5d9631f84745b3369510',1,'adxl345']]],
+  ['getaxes',['getAxes',['../classadxl345.html#a1117c3898e035b91689c67aebc14bfd8',1,'adxl345']]],
+  ['getaxisoffset',['getAxisOffset',['../classadxl345.html#ae067abf22abcc386258f9e478d521631',1,'adxl345']]],
+  ['getbitrate',['getBitRate',['../classadxl345.html#a6774c3e91cdd2a16932eb1b3c54294d6',1,'adxl345']]],
+  ['getfreefallthresh',['getFreeFallThresh',['../classadxl345.html#af759caa828026905e6ac3194f7895da8',1,'adxl345']]],
+  ['getfreefalltime',['getFreeFallTime',['../classadxl345.html#a216199a0dbfe8fdf2adde37d39915698',1,'adxl345']]],
+  ['getinacttime',['getInactTime',['../classadxl345.html#aa2355e91839dea0dabda138c2370e925',1,'adxl345']]],
+  ['getinterrupts',['getInterrupts',['../classadxl345.html#a3bb1a4ebf8c186f314803e28e40334e4',1,'adxl345']]],
+  ['getlatent',['getLatent',['../classadxl345.html#a19d32af7e63d784579528c06913e92f4',1,'adxl345']]],
+  ['getrangesetting',['getRangeSetting',['../classadxl345.html#a2a2f8c38910c3f29074ad8fd56177d68',1,'adxl345']]],
+  ['gettapdetection',['getTapDetection',['../classadxl345.html#aba360dc4026743ab8af9b8d0458ed450',1,'adxl345']]],
+  ['gettapduration',['getTapDuration',['../classadxl345.html#a8bb1ce6a876f2e63af6feef6b41393a2',1,'adxl345']]],
+  ['gettreshact',['getTreshAct',['../classadxl345.html#affd2b2101545b30cfa45a5bc1e8575e9',1,'adxl345']]],
+  ['gettreshinact',['getTreshInact',['../classadxl345.html#a9240edc61c711c15efaab8c9aa2eac3d',1,'adxl345']]],
+  ['gettreshtap',['getTreshTap',['../classadxl345.html#af7cfa4c83edb541a123ed3760a9278b2',1,'adxl345']]],
+  ['getwindow',['getWindow',['../classadxl345.html#a50315f8c285b008c1820b30f1bd3abe9',1,'adxl345']]],
+  ['getx',['getX',['../classadxl345.html#aaf3efd0242e8662f216f61ce647b1e7b',1,'adxl345']]],
+  ['gety',['getY',['../classadxl345.html#a1afa9c64a7bde78b48060b48bfe229f2',1,'adxl345']]],
+  ['getz',['getZ',['../classadxl345.html#afca8c2ff9cb6893231adcfd9a8e7e8a7',1,'adxl345']]]
+];

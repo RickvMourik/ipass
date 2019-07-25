@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['setactinactctl',['setActInactCtl',['../classadxl345.html#a72594e1ba75bdd008a7e747f776f3f1b',1,'adxl345']]],
+  ['setaxisoffset',['setAxisOffset',['../classadxl345.html#a537cbd6915265c80c0f965c309ce60be',1,'adxl345']]],
+  ['setbitrate',['setBitRate',['../classadxl345.html#ad60268eb6e8adb52cb88a2ff09266b2c',1,'adxl345']]],
+  ['setfreefallthresh',['setFreeFallThresh',['../classadxl345.html#ad8aabf1c90a2be315fc81c0b16e02ed8',1,'adxl345']]],
+  ['setfreefalltime',['setFreeFallTime',['../classadxl345.html#acfd82d2995493a74fcc2cc69ca51736e',1,'adxl345']]],
+  ['setinacttime',['setInactTime',['../classadxl345.html#abeb8d189b929d896534e88204912a953',1,'adxl345']]],
+  ['setinterrupts',['setInterrupts',['../classadxl345.html#a5eba0f9da137e5605560ccfc939c41f1',1,'adxl345']]],
+  ['setlatent',['setLatent',['../classadxl345.html#a1c836a526994abadb9b815b401a986f9',1,'adxl345']]],
+  ['setrangesetting',['setRangeSetting',['../classadxl345.html#a73c01a46d82044bd6d45abb954f01547',1,'adxl345']]],
+  ['settapdetection',['setTapDetection',['../classadxl345.html#a1ef67977eb2a7a9aed52f387baa4bfea',1,'adxl345']]],
+  ['settapduration',['setTapDuration',['../classadxl345.html#a3a3e087b7fe36075d7b26a250c86992b',1,'adxl345']]],
+  ['settreshact',['setTreshAct',['../classadxl345.html#a59b6528b21c130f43c234589dd9cb34e',1,'adxl345']]],
+  ['settreshinact',['setTreshInact',['../classadxl345.html#a12cb62595372d5066e4030114a5c9ebe',1,'adxl345']]],
+  ['settreshtap',['setTreshTap',['../classadxl345.html#a6e2492d5df9ba7fec515b015e94e80c9',1,'adxl345']]],
+  ['setwindow',['setWindow',['../classadxl345.html#ac4d3844a3a87b9dbbfcc04abb44b1364',1,'adxl345']]],
+  ['showaxes',['showAxes',['../classadxl345.html#ac60c07b51c65b85f2dba886ba9bedda6',1,'adxl345']]]
+];
