@@ -1,0 +1,59 @@
+How to test the sensor:
+The first thing to check when you want to use the sensor is if the settings you want are set conrrectly, you can check the settings via the getAllSettings command.
+Compare the output of this function to the settings you've set in the setup in order to know if everything was set correctly.
+The output of the getAllSettings function has the same order as the setup.
+
+The outputs should be the same value you set them to be, the exceptions are when the output is in binairy and if you've set the value to a value which is not supported.
+
+If the output is in binary it will discard all the 0's before the first 1 unless all the bits of the register are set 0 in that case the ouput is 0 .
+When you're looking at the binary value for the tap detection register there will be a maxium of 4 numbers. this binary code is set with these variables:
+bool suppresTap = 0;
+bool tapX = 0;                   
+bool tapY = 0;
+bool tapZ = 0;
+These settings are in the same order as the 0's and 1's in the binairy code.
+So incase you get as binary code 101 the variables are set to:
+bool suppresTap = 0;
+bool tapX = 1;                   
+bool tapY = 0;
+bool tapZ = 1;  
+
+the interrupt settings follow the same setup with the variables but the binary code has a maximum of 8 numbers:
+bool data_ready = 0;      
+bool single_tap = 0;
+bool double_tap = 0;
+bool activity = 0;
+bool inactivity = 0;
+bool freefall = 0;
+bool watermark = 0;
+bool overrun = 0;
+These settings are also in the same order as the 0's and 1's in the binary code.
+For example if you set these variables the same as below, the output binary output will be 10010110: 
+bool data_ready = 1;      
+bool single_tap = 0;
+bool double_tap = 0;
+bool activity = 1;
+bool inactivity = 0;
+bool freefall = 1;
+bool watermark = 1;
+bool overrun = 0;
+
+If any setting isn't as you wanted, you can change it easily in the setup, the setup has the same order as the getAllSettings ouput.
+
+To calibrate the sensor place the sensor on a flat surface and run run either the showAxes function or the getX, getY, getZ function and display the outcome to the screen.
+The showAxes function displays the data of the axes on the screen.
+
+
+If you want to focus on one axis in particular you can instead use the following where getX can be changed to any axis just switch the X wit Y or Z:
+
+hwlib::cout << "the axis = " << hwlib::dec << getX(); 
+
+Change the values set in the setAxisOffset until the values you get the each axis between -5 and 5.
+
+How to test the application:
+The best to test the application is by using it and keeping a look at when the image changes.
+The images should change if one or both of the axes are above the set threshold, unless the axes move in oposite ways. If the image changed it shouldn't change unless both axes are between the reset values given. Yo can also check if the image changed to correct image because the images are number. if the sensor accelerates to the right or up the image should go to a image with a higher number, unless the it's the third image. In that case the image would swap to the first image.
+I you accelerate the sensor to the left and down the exact opposite should happen. 
+
+  
+
